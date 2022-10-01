@@ -1,0 +1,218 @@
+:root {
+  --color-one: #ffffff;
+  --color-two: #2196f3;
+  --color-three: #000000;
+  --color-four: #212121;
+  --color-five: #757575;
+  --color-six: #2f303a;
+  --color-seven: #188ce8;
+  --color-eight: #f5f4fa;
+  --color-nine: rgba(255, 255, 255, 0.6);
+  --color-ten: #eeeeee;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  background: var(--color-one);
+}
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: calc(31 / 26);
+  letter-spacing: 0.03em;
+}
+.header-logo-web {
+  color: var(--color-two);
+}
+.header-logo-studio {
+  color: var(--color-three);
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+.header-nav,
+.header-contacts {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.02em;
+}
+.header-nav {
+  color: var(--color-four);
+}
+.header-contacts {
+  color: var(--color-five);
+}
+.header-nav:hover,
+.header-nav:focus {
+  color: var(--color-two);
+}
+.current {
+  color: var(--color-two);
+}
+.header-contacts:hover,
+.header-contacts:focus {
+  color: var(--color-two);
+}
+.cap {
+  background: var(--color-six);
+}
+.cap-text {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: calc(60 / 44);
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--color-one);
+}
+.cap-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: calc(30 / 16);
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--color-one);
+  background: var(--color-two);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: var(--color-two);
+  cursor: pointer;
+}
+.cap-button:hover,
+.cap-button:focus {
+  background: var(--color-seven);
+}
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+.feature {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: calc (16 / 14);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--color-four);
+}
+.feature-text {
+  font-size: 14px;
+  line-height: calc (24 / 14);
+  letter-spacing: 0.03em;
+  color: var(--color-five);
+}
+.title-section {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: calc (42 / 36);
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--color-four);
+}
+.team {
+  background: var(--color-eight);
+}
+.team-card {
+  background: var(--color-one);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+.worker-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc (19 / 16);
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--color-four);
+}
+.position {
+  font-size: 16px;
+  line-height: calc (19 / 16);
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--color-five);
+}
+.footer {
+  background: var(--color-six);
+}
+.footer-logo-web,
+.footer-logo-studio {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: calc (31 / 26);
+  letter-spacing: 0.03em;
+}
+.footer-logo-web {
+  color: var(--color-two);
+}
+.footer-logo-studio,
+.address {
+  color: var(--color-one);
+}
+.footer-contacts {
+  font-style: normal;
+  font-size: 14px;
+  line-height: calc (24 / 14);
+  letter-spacing: 0.03em;
+}
+.footer-tel-mail {
+  color: var(--color-nine);
+}
+.footer-tel-mail:hover,
+.footer-tel-mail:focus {
+  color: var(--color-two);
+}
+/*------------------------------------PORTFOLIO----------------------------------*/
+.filter {
+  border-radius: 4px;
+  border: var(--color-eight);
+  background: var(--color-eight);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc (26 / 16);
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--color-four);
+  cursor: pointer;
+}
+.filter:hover,
+.filter:focus {
+  color: var(--color-one);
+  background: var(--color-two);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+.project {
+  background: var(--color-one);
+  border: 1px solid var(--color-ten);
+}
+.project-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: calc (36 / 18);
+  letter-spacing: 0.06em;
+  color: var(--color-four);
+}
+.project-type {
+  font-size: 16px;
+  line-height: calc (30 / 16);
+  letter-spacing: 0.03em;
+  color: var(--color-five);
+}
