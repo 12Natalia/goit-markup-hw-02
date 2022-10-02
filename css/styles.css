@@ -70,6 +70,7 @@ body {
   color: var(--color-one);
 }
 .cap-button {
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: calc(30 / 16);
@@ -103,21 +104,21 @@ body {
 .feature {
   font-weight: 700;
   font-size: 14px;
-  line-height: calc (16 / 14);
+  line-height: calc(16 / 14);
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--color-four);
 }
 .feature-text {
   font-size: 14px;
-  line-height: calc (24 / 14);
+  line-height: calc(24 / 14);
   letter-spacing: 0.03em;
   color: var(--color-five);
 }
 .title-section {
   font-weight: 700;
   font-size: 36px;
-  line-height: calc (42 / 36);
+  line-height: calc(42 / 36);
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--color-four);
@@ -134,14 +135,14 @@ body {
 .worker-name {
   font-weight: 500;
   font-size: 16px;
-  line-height: calc (19 / 16);
+  line-height: calc(19 / 16);
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--color-four);
 }
 .position {
   font-size: 16px;
-  line-height: calc (19 / 16);
+  line-height: calc(19 / 16);
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--color-five);
@@ -154,7 +155,7 @@ body {
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
-  line-height: calc (31 / 26);
+  line-height: calc(31 / 26);
   letter-spacing: 0.03em;
 }
 .footer-logo-web {
@@ -167,7 +168,7 @@ body {
 .footer-contacts {
   font-style: normal;
   font-size: 14px;
-  line-height: calc (24 / 14);
+  line-height: calc(24 / 14);
   letter-spacing: 0.03em;
 }
 .footer-tel-mail {
@@ -185,7 +186,7 @@ body {
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
-  line-height: calc (26 / 16);
+  line-height: calc(26 / 16);
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--color-four);
@@ -206,13 +207,13 @@ body {
 .project-name {
   font-weight: 700;
   font-size: 18px;
-  line-height: calc (36 / 18);
+  line-height: calc(36 / 18);
   letter-spacing: 0.06em;
   color: var(--color-four);
 }
 .project-type {
   font-size: 16px;
-  line-height: calc (30 / 16);
+  line-height: calc(30 / 16);
   letter-spacing: 0.03em;
   color: var(--color-five);
 }
